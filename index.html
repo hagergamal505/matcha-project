@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Matcha Tea - Home</title>
+    <title>Login - Matcha</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,27 +11,28 @@
         <h1>Matcha Lovers</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Login</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Welcome to the World of Matcha</h2>
-        <p>Matcha is a special type of finely ground green tea. It is known for its beautiful green color and earthy taste.</p>
+        <h2>Login to Your Account</h2>
         
-      
-        <img src="matcha.jpg" alt="A cup of Matcha Tea">
-
-        <h3>Amazing Benefits of Matcha:</h3>
-        <ul style="text-align: left; display: inline-block;">
-            <li>It is very high in antioxidants.</li>
-            <li>Helps boost brain function and focus.</li>
-            <li>Gives you energy without the coffee jitters.</li>
-            <li>Good for heart health.</li>
-        </ul>
+        <div class="login-form">
+          
+            <form action="home.html">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
     </main>
 
     <footer>
